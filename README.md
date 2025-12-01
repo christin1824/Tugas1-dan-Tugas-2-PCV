@@ -3,7 +3,7 @@
 Tugas ini berfokus pada penerapan teknik dasar pengolahan citra (**Smoothing/Blurring** dan **Sharpening**) langsung pada latar belakang animasi VTuber secara *real-time*.
 
 ### Konsep Utama
-Inti dari operasi ini adalah **Konvolusi**—menggeser **kernel** (matriks filter) di atas piksel citra untuk menghasilkan efek tertentu. Kami menggunakan `cv2.filter2D()` untuk mengimplementasikan ketiga filter, termasuk Gaussian Blur yang wajib menggunakan kernel kustom.
+Inti dari operasi ini adalah **Konvolusi** menggeser **kernel** (matriks filter) di atas piksel citra untuk menghasilkan efek tertentu. Kami menggunakan `cv2.filter2D()` untuk mengimplementasikan ketiga filter, termasuk Gaussian Blur yang wajib menggunakan kernel kustom.
 
 ### 🛠️ Mode Filter yang Diimplementasikan
 
